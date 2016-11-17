@@ -1,31 +1,32 @@
 {
-  "name": "jdcodervee",
-  "version": "0.0.1",
-  "description": "Jobdecoder.com vee Server",
-  "main": "server.js",
-  "dependencies": {
-    "async": "*",
-    "request": "*",
-    "socket.io": "*",
-    "express": "*",    
-    "mysql": "*"  
-  },
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-  "scripts": {
-    "start": "node server.js",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jobdecoder/jdvid.git"
-  },
-  "author": "HolhuJay <holhushehun@gmail.com>",
-  "license": "CC-BY-1.0",
-  "bugs": {
-    "url": "https://github.com/jobdecoder/jdvid/issues"
-  },
-  "homepage": "https://github.com/jobdecoder/jdvid"
+    "name": "jdcodervee",
+    "version": "0.0.1",
+    "description": "Jobdecoder.com vee Server",
+    "main": "server.js",
+    "dependencies": {
+        "async": "latest",
+        "request": "latest",
+        "socket.io": "latest",
+        "express": "latest",
+        "mysql": "latest"
+    },
+    
+    "engines": {
+        "node": ">= 0.12.0",
+        "npm": ">= 1.2.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jobdecoder/jdvid.git"
+    },
+    "author": "HolhuJay <holhushehun@gmail.com>",
+    "license": "CC-BY-1.0",
+    "bugs": {
+        "url": "https://github.com/jobdecoder/jdvid/issues"
+    },
+    "homepage": "https://github.com/jobdecoder/jdvid"
 }
