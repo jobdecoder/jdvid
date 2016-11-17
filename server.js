@@ -14,12 +14,13 @@ var newUserNotify = [];
 
 var pool = mysql.createPool({
     connectionLimit: 100,
-    host: 'localhost',
+    host: '198.57.230.170',
     user: 'root',
-    password: 'delete',
+    password: 'Delete!@',
     database: 'wwwjobde_db',
     debug: false
 });
+
 app.get("/", function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
